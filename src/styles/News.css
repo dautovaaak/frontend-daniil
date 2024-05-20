@@ -1,0 +1,71 @@
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .news-article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .news-article:hover {
+    transform: scale(1.02);
+  }
+  
+  .news-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .news-content {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .buttons-container {
+    text-align: center;
+  }
+  
+  .invite-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s; 
+  }
+  
+  .invite-button.copied {
+    background-color: #28a745; 
+  }
+  
+  .invite-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .user-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+  }

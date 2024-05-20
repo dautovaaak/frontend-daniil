@@ -1,0 +1,53 @@
+.customer-service-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .customer-service-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-service-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .customer-service-content {
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  strong {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+    transition: color 0.3s ease; 
+  }
+  
+  p {
+    margin-top: 20px;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  strong.active {
+    color: #007bff;
+  }

@@ -1,0 +1,72 @@
+.profile-container {
+    margin-left: 300px;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+  }
+    
+  .banner {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+    
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 10px;
+    border: 2px solid #fff;
+  }
+    
+  .user-info {
+    margin-top: 20px;
+  }
+    
+  .user-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+    
+  .user-info p {
+    margin: 5px 0;
+  }
+    
+  .action-buttons {
+    margin-top: 20px;
+  }
+    
+  .action-buttons button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+    
+  .action-buttons p {
+    color: green;
+    font-size: 1em;
+    margin-bottom: 5px;
+    animation: fadeInOut 3s ease-out;
+  }
+    
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+    
+  .tweets {
+    margin-top: 20px;
+  }
+    
+  .tweets p {
+    font-style: italic;
+    color: #555;
+  }

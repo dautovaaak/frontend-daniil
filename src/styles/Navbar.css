@@ -1,0 +1,117 @@
+/* Navbar.css */
+
+nav {
+    background-color: #007bff;
+    padding: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    margin-bottom: 5px; 
+    position: relative;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #007bff84;
+  }
+  
+  .friends-dropdown {
+    position: absolute;
+    background-color: cadetblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 5px;
+    gap: 5px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .friends-dropdown li {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: cadetblue;
+    width: 85%;
+    gap:10px;
+    margin-bottom: 5px;
+  }
+  
+  .friends-dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+  .friends-dropdown li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .friends-dropdown li a:hover {
+    color: #007bff;
+  }
+  
+  .auth-buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .login-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .login-link:hover {
+    color: #fff;
+  }
+  
+  .logout-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000;
+  }
